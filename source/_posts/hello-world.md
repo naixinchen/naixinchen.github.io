@@ -6,6 +6,7 @@ tags:
   - web前端
 categories:
   - webgl
+cover: ./images/threejs.png
 ---
 
 # three.js 
