@@ -4,12 +4,12 @@
 
 # Site
 title: NaixinChen's Blog
-subtitle: ''
-description: ''
-keywords:
+subtitle: 'blog'
+description: 'a website to record my learning journey'
+keywords: "web development"
 author: Naixin Chen
 language: en
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -52,6 +52,7 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+
 prismjs:
   enable: false
   preprocess: true
@@ -104,4 +105,7 @@ theme: aurora
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/naixinchen/naixinchen.github.io.git
+  branch: master
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"

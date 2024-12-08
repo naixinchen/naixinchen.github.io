@@ -12,13 +12,13 @@
 site:
   subtitle: NaixinChen's Blog
   author: NaixinChen
-  nick: Auroral UI
-  description:
+  nick: Naixin
+  description: 'Blog platform for naixin, sharing tech and life'
   link: '/'
   language: en
   multi_language: true
-  logo:
-  avatar:
+  logo: https://avatars.githubusercontent.com/u/174627792?v=4
+  avatar: https://avatars.githubusercontent.com/u/174627792?v=4
   beian:
     number: ''
     link: ''
@@ -61,6 +61,7 @@ menu:
   About: true
   Tags: true
   Archives: true
+  # Categories
   Friends: false
 
 #! ---------------------------------------------------------------
@@ -81,7 +82,8 @@ theme:
 #! @docs https://aurora.tridiamond.tech/guide/social.html
 #! ---------------------------------------------------------------
 socials:
-  customs:
+  github: 'https://github.com/naixinchen'
+  custons:
   ##! Example:
   ##! --- Using SVG
   # bilibili:
@@ -105,9 +107,9 @@ socials:
 site_meta:
   cdn: cn
   favicon:
-  description: ''
-  keywords: ''
-  author: ''
+  description: '一位在努力学习前端的初级工程师'
+  keywords: 'web前端, three.js, web development,'
+  author: 'NaixinChen'
 
 #! ---------------------------------------------------------------
 #! Plugins
@@ -191,7 +193,7 @@ copy_protection:
 #! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
 #! ---------------------------------------------------------------
 aurora_bot:
-  enable: false
+  enable: true
   locale: en
   bot_type: dia
   tips:
@@ -222,4 +224,5 @@ footer_links:
 #! ---------------------------------------------------------------
 shiki:
   enable: true
+  theme: material-theme-palenight
   backgroundColor: "#1a1a1a"
