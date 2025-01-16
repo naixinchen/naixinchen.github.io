@@ -10,4 +10,4 @@ cover: ./images/threejs.png
 ---
 
 # three.js 
-Comming soon
+Comming soon for more detail
